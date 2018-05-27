@@ -1,0 +1,49 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 10px 50px 10px 50px;
+}
+
+.post-container {
+    margin: 10px 50px 10px 75px;
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+.post-title {
+    padding-top: 30px;
+    font-size: 5em;
+    font-family: fantasy;
+}
+.youtube {
+    width: 100%;
+}
+@media only screen and (max-width: 550px) {
+    .post-thumb {
+        display: block;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .post-content {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .post-container {
+        margin: 0 auto;
+    }
+}
